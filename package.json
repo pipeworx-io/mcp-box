@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-box",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Box (enterprise cloud storage) MCP Pack",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-box": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "box"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-box"
+    "url": "git+https://github.com/pipeworx-io/mcp-box.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-223c5da5ea92fe49abf9b87d6f213e4899a415d572b9ade5f3b7ecd2c943fd81",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
