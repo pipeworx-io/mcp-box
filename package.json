@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-box",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Box (enterprise cloud storage) MCP Pack",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-223c5da5ea92fe49abf9b87d6f213e4899a415d572b9ade5f3b7ecd2c943fd81",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-f69f6b5f7606a33e9f4cf924992f47ceaadeb0ee15ea5aa9587f528c7e9366b3",
+    "sourceCommit": "babdd280d475dceddecc9ebf8f2a661712781a81"
   }
 }
