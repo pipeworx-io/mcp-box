@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-box",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Box (enterprise cloud storage) MCP Pack",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "box",
     "gatewaySlug": "box",
-    "sourceHash": "v1-01e84176ffe7bfea843711252d1adaec7325f50a96fa027beddd3dab2c645827",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-a2cb05038c6177e55b3693a7ebec2cc34c991187224e2e9d6468ccc89cd6fae1",
+    "sourceCommit": "547a3983b42dacf4389ca474860b0a1dee8e6053"
   }
 }
